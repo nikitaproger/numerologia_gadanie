@@ -1,6 +1,3 @@
-from doctest import master
-
-
 class numerology():
     def __init__(self):
         self.basic_num = {
@@ -71,4 +68,5 @@ if len(mater_nim) > 0:
     mater_nim_itog = num.pr(mater_nim)
     print(result,"ваше число под усилением мастер-чисел: ",mater_nim_itog)
 else:
+
     print(result)
